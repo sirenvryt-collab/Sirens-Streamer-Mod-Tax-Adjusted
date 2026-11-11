@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.donutstreamer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DebugHudProfileMixin",
+    "LivingEntityRendererMixin",
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

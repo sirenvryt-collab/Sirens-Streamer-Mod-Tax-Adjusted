@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "donutstreamer",
+  "version": "${version}",
+  "name": "Donut Streamer",
+  "description": "Client-side stream toolkit for DonutSMP: automatic session profit tracker with a draggable HUD, plus a live auction panel and item browser. Reads chat only. No automation, no packets, no server interaction.",
+  "authors": ["Donut Streamer contributors"],
+  "license": "MIT",
+  "icon": "assets/donutstreamer/icon.png",
+  "environment": "client",
+  "mixins": ["donutstreamer.mixins.json"],
+  "entrypoints": {
+    "client": ["com.donutstreamer.DonutStreamerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
